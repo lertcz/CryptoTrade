@@ -1,0 +1,24 @@
+.coin-app {
+    @apply flex flex-col items-center mt-16 text-white min-h-[82.3vh]
+}
+
+.coin-app > * {
+    @apply box-border m-0 p-0 font-Sora bg-[#1a1a1c] text-white
+}
+
+.coin-search {
+    @apply mb-16 flex flex-col justify-center items-center
+}
+
+.coin-text {
+    @apply mb-8 text-center
+}
+
+.coin-input {
+    @apply placeholder-[#e2e2e2] pl-4 w-[300px] h-[50px] rounded-[4px] border-none 
+    bg-gradient-to-tl from-[#ac32e4] via-[#7918f2] to-[#4801ff]
+}
+
+.pages {
+    @apply bg-slate-100 rounded m-4
+}

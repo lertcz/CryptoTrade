@@ -25,14 +25,14 @@ ul {
   @apply h-16 bg-[#242526] px-0 py-1 border-b-2 border-solid border-[#474a4d]
 }
 
-
-.navbar-account {
-  @apply max-w-full flex justify-end
+.navbarUl{
+ @apply block w-full 
 }
 
 /* <li> */
 .nav-item {
-  @apply w-12 flex-none items-center content-center
+  @apply inline-block align-top	 w-12
+
 }
 
 /* Icon Button */
@@ -52,7 +52,7 @@ ul {
 /* Dropdown Menu */
 
 .dropdown {
-  @apply flex flex-col top-2 w-48 -translate-x-1/2 bg-[#242526] rounded-lg p-1
+  @apply flex flex-col top-2 right-8 w-48 -translate-x-1/2 bg-[#242526] rounded-lg p-1
 }
 
 .menu {

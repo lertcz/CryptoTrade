@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    text-decoration: none !important;
+}
+
+:root {
+  --bg:  #242526;
+  --bg-accent: #484a4d;
+  --text-color: #dadce1;
+  --nav-size: 60px;
+  --border: 1px solid #474a4d;
+  --border-radius: 8px;
+  --speed: 500ms; 
+}
+
+ul {
+  @apply m-0 p-0 list-none 
+}
+
+/* <nav> */
+.navbar {
+  @apply h-16 bg-[#242526] px-0 py-1 border-b-2 border-solid border-[#474a4d]
+}
+
+
+.navbar-account {
+  /*
+  @apply max-w-full flex justify-end
+  */
+}
+
+/* <li> */
+.nav-item {
+  @apply w-12 flex-none items-center content-center
+}
+
+/* Icon Button */
+.icon-button {
+  @apply w-8 h-8 bg-[#484a4d] rounded-lg p-1 m-0.5 flex items-center justify-center
+}
+
+.icon-button:hover {
+  @apply brightness-125
+}
+
+.icon-button svg { 
+  @apply fill-[#dadce1] w-5 h-5
+}
+
+
+/* Dropdown Menu */
+
+.dropdown {
+  @apply flex flex-col top-2 w-48 -translate-x-1/2 bg-[#242526] rounded-lg p-1
+}
+
+.menu {
+  @apply w-full
+}
+
+.menu-item {
+  @apply flex items-center justify-center h-16 p-0.5 rounded-lg text-white
+}
+
+.menu-item .icon-button {
+  @apply mr-0.5 w-auto
+}
+
+
+.menu-item .icon-button:hover {
+  @apply filter-none
+}
+
+.menu-item:hover {
+  @apply bg-[#525357]
+}
+
+.icon-right {
+  @apply ml-1
+}
