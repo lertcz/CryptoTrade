@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CryptoTrade/static/css/main.69f87a14.css",
+    "main.js": "/CryptoTrade/static/js/main.96f38724.js",
+    "index.html": "/CryptoTrade/index.html",
+    "main.69f87a14.css.map": "/CryptoTrade/static/css/main.69f87a14.css.map",
+    "main.96f38724.js.map": "/CryptoTrade/static/js/main.96f38724.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69f87a14.css",
+    "static/js/main.96f38724.js"
+  ]
+}
